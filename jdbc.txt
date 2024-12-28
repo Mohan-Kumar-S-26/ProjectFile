@@ -1,0 +1,60 @@
+                                           ***JAVA DATABASE CONNECTIVITY***
+
+
+   ---> JDBC Connection Process <---
+            
+   *There are Seven Steps to Connect your Java code to Database:
+                                      
+                               -->Here,Jdbc plays a role.
+
+
+                               --> Import Packages (Sql,DriverManager,etc..)
+
+
+                               -->Load and Register the Driver(Using forName()) 
+
+                                  
+                                  *Use of forName() method is Loader Invocation implcitly to Load a Several RDBMS Drivers 
+                                    Like mySql,Postgresql,etc..
+                                    
+                  
+                                  **(Get Latest version Drivers from Official Websites)**
+
+
+
+
+                               -->Connection Via user to DataBase By DriverManager (using getConnection(url,name,pwd))
+
+
+               
+                               -->Statement are: CreateStatement,PreparedStatement, Callable Statement
+                                  Using connection obj as reference to invoke statement method.
+
+
+
+                               -->ResultSet is the Object Structure to Hold the Requested Output from the Database as Table Structure.
+                                  -> It use statement obj as reference to invoke exceuteQuery(),UpdateQuery(),etc..
+
+
+
+                               --> For Retrival: use of next(),getInt(i),getString(i) (were i is column-index)
+
+                                
+                                    -> For Initial Retrival from ResultSet data, Assume The Current pointer points on above the first row as null
+                                    
+                                    ->For Every Intial Retrival,the pointer should be moved to first row using next() method.
+                                       
+                                    -> Then, The Normal Retrivals Begins.
+
+
+
+                               --> Finally, Close the Object of Connection,Statement and So on.
+
+
+
+
+                          
+                                                       **THANK-YOU**
+
+
+                               
