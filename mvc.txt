@@ -1,0 +1,56 @@
+                                   MVC -Model View Controller
+
+Model:
+   -->POJO (plain old java Object)
+   --> It is used to Represent Data and also had a Default Constructor.
+   --> A pojo class is used for variable declaration for Every Access Specifiers and Entities
+   --> Model is used to send Data Objects to the View
+
+Controller:
+   -->It is used to accept the request from the client.
+   -->Service Layer, Which do Operation Via Controller (JDBC Methods Also Write inside Service Layer)
+   -->Data Access Object,Which Interact with DataBase to Retrives and Sending Data
+
+View:
+   -->In View, the Default Layout is showed to the client webpage in the Format of JSP (Java Server Page)
+   -->JSP:
+        -->In simple terms,The Java Codes can be writes in the html file were the file known as .jsp extension.
+        -->It is an some Default Methods of Servlet like HttpServletRequest, HttpServletResponse,etc..
+        --> There are Four types To Represent:
+                                              -->Directive (to import packagesor classes)
+                                              -->Declaration (to intialise instance Variable)
+                                              -->Scriptlet (to write a java code) 
+                                              -->Expression (to print the instance value and other outputs)
+        
+        --> Tag: Page(errorPage,contentType,session,etc..), taglib (Userdefined tags), include (use or extends addition jsp files with other file)
+   
+   -->Also,without java The mvc works but it return to the client requent as .html or xhtml as response
+
+----> Simple Terms for MVC  <----
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
